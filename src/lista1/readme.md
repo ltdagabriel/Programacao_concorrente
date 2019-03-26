@@ -1,4 +1,4 @@
-### Implemente o exemplo anterior usando Lambda Expression.
+### 1. Implemente o exemplo anterior usando Lambda Expression.
 ```java
 public class exercicio_1 {
     public static void main(String[] args){
@@ -6,9 +6,9 @@ public class exercicio_1 {
             System.out.println("Thread lamba Ex1!");
         }).start();
     }
-    }
+}
 ```
-### Faça um programa que receba um valor indicando um número de threads a serem instanciadas e teste os dois modos de criar threads em Java.
+### 2. Faça um programa que receba um valor indicando um número de threads a serem instanciadas e teste os dois modos de criar threads em Java.
 * dica: use o Thread.sleep para pausar as threads por um
 intervalo de tempo.
     
@@ -28,7 +28,7 @@ public class exercicio_2 {
     }
 }
 ````
-### Implemente o exemplo de código que gera a condição de disputa e tente gerar um teste para que ocorra um problema de segurança (safety).
+### 3. Implemente o exemplo de código que gera a condição de disputa e tente gerar um teste para que ocorra um problema de segurança (safety).
 ```java
 import java.util.concurrent.TimeUnit;
 
