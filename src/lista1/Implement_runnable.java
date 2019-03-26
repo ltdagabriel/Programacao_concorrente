@@ -4,6 +4,6 @@ public class Implement_runnable implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Hello Runnable");
+        System.out.println("Runnable ex2");
     }
 }

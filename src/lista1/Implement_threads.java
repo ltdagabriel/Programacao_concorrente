@@ -14,10 +14,11 @@ public class Implement_threads extends Thread {
         try {
             sleep(1);
             if(cnt == null){
-                System.out.println("Hello Thread");
+                System.out.println("Thread Ex2");
             }
             else {
-                System.out.println(cnt.plus());
+                System.out.println("Contador +1(" + cnt.plus() + ')');
+
             }
 
         } catch (InterruptedException e) {
