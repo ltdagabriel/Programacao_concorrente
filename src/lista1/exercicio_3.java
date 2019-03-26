@@ -11,7 +11,7 @@ public class exercicio_3 {
             a.start();
         }
         TimeUnit.SECONDS.sleep(1);
-        if (temp.getNumber() != n) {
+        if (temp.getNumber() < n) {
             System.out.println("Falha de seguranção contador menor que o numero de threads!");
             System.out.println("Numero de Threads encontrada " + temp.getNumber() + " de " + n + " criadas");
         }
