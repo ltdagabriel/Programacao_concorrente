@@ -1,4 +1,6 @@
 ### Tarefas de Programação concorrente
+Tarefas utilizadas para aprendizagem de concorrencia utilizando a linguagem java, todos os arquivos foram gerados e editados utilizando a Intellij IDE.
+
 |Participante|Nome| Github|
 |---:|:---|:---|
 |Estudante |Gabriel Choptian|[Github](https://github.com/ltdagabriel/)|
