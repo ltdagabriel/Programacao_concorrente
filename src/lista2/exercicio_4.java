@@ -4,17 +4,19 @@ import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.List;
 
-public class exercico_4 extends Thread {
+public class exercicio_4 extends Thread {
 
     public static void main(String[] args) {
-        List<tread_aux> lista = new ArrayList<>();
+        List<Thread> lista = new ArrayList<>();
         for(int i=0; i<5;i++){
-            tread_aux a = new tread_aux();
+            Thread a = new Thread(() -> {
+                while (true){}
+            });
             a.setName(String.format("Thread a_%d",i));
             lista.add(a);
         }
         Controle controle = new Controle(lista);
-        for(tread_aux i:lista){
+        for(Thread i:lista){
             i.start();
             i.interrupt();
         }
@@ -24,9 +26,9 @@ public class exercico_4 extends Thread {
 }
 
 class Controle extends Thread {
-    private List<tread_aux> threads;
+    private List<Thread> threads;
 
-    Controle(List<tread_aux> list) {
+    Controle(List<Thread> list) {
         threads = list;
     }
 
@@ -35,7 +37,7 @@ class Controle extends Thread {
         try {
             while (true) {
                 int ok=0;
-                for (tread_aux i : threads) {
+                for (Thread i : threads) {
                     if (i.isInterrupted()) {
                         System.out.println(String.format("Thread [%s]Interrompida", i.getName()));
                         ok = 1;
@@ -51,13 +53,4 @@ class Controle extends Thread {
         System.out.println("Todas as Threads foram finalizadas!");
     }
 
-}
-class tread_aux extends Thread {
-
-    @Override
-    public void run() {
-        while(true) {
-
-        }
-    }
 }

@@ -101,5 +101,93 @@ public class exercicio_3_2 extends Thread {
 
 ```
 ###4. Faça uma Thread que monitora um conjunto de threads e exiba quais threads receberam sinais de interrupção.
+```java
 
+public class exercicio_4 extends Thread {
+
+    public static void main(String[] args) {
+        List<Thread> lista = new ArrayList<>();
+        for(int i=0; i<5;i++){
+            Thread a = new Thread(() -> {
+                while (true){}
+            });
+            a.setName(String.format("Thread a_%d",i));
+            lista.add(a);
+        }
+        Controle controle = new Controle(lista);
+        for(Thread i:lista){
+            i.start();
+            i.interrupt();
+        }
+        controle.start();
+        controle.interrupt();
+    }
+}
+
+class Controle extends Thread {
+    private List<Thread> threads;
+
+    Controle(List<Thread> list) {
+        threads = list;
+    }
+
+    @Override
+    public void run() {
+        try {
+            while (true) {
+                int ok=0;
+                for (Thread i : threads) {
+                    if (i.isInterrupted()) {
+                        System.out.println(String.format("Thread [%s]Interrompida", i.getName()));
+                        ok = 1;
+                    }
+                }
+                sleep(10);
+                if(ok ==1) break;
+            }
+        } catch (InterruptedException | ConcurrentModificationException e) {
+            System.out.println("Thread Controle interrompida");
+        }
+
+        System.out.println("Todas as Threads foram finalizadas!");
+    }
+
+}
+```
 ###5. Faça uma thread Java que fica aguardando uma sequência numérica de tamanho arbitrário digitado por usuário para realizar uma soma. Use o join().
+```java
+
+public class exercicio_5 {
+    public static void main(String[] args) throws InterruptedException {
+        List<Integer> lista = new ArrayList<>();
+        Leitura reader = new Leitura(lista);
+        reader.start();
+        reader.join();
+        System.out.println(sum(lista));
+    }
+
+    private static int sum(List<Integer> lista) {
+        int sum = 0;
+        for(int i:lista){
+            sum += i;
+        }
+        return sum;
+    }
+}
+
+class Leitura extends Thread{
+    private List<Integer> lista;
+    @Override
+    public void run() {
+        Scanner read = new Scanner(System.in);
+        System.out.println("Digite varios numeros:");
+        String in = read.nextLine();
+        for(String i:in.split(" ")){
+            lista.add(Integer.valueOf(i));
+        }
+    }
+    Leitura(List<Integer> lista){
+        this.lista = lista;
+    }
+}
+```
