@@ -49,6 +49,57 @@ public class exercicio_2 extends Thread {
 }
 ```
 ###3. Faça um programa Java que envia interrupções para as threads dos exercícios anteriores. As threads devem fazer o tratamento dessas interrupções e realizar uma finalização limpa.
+```java
 
+public class exercicio_3_1 extends Thread {
+    @Override
+    public void run() {
+        Random gerador = new Random();
+
+        try {
+            int i = gerador.nextInt(100);
+            System.out.println(String.format("Waiting... %d", i));
+            sleep(i);
+        } catch (InterruptedException e) {
+            System.out.println("Interrupção por meio do usuario");
+        }
+    }
+    public static void main(String[] args){
+        for(int i =0; i<3;i++){
+            exercicio_1 th = new exercicio_1();
+            th.start();
+            th.interrupt();
+        }
+    }
+}
+
+public class exercicio_3_2 extends Thread {
+    public static void main(String[] args) {
+        exercicio_3_2 th = new exercicio_3_2();
+        th.start();
+        th.interrupt();
+    }
+
+    @Override
+    public void run() {
+        try {
+//            Caminho inteiro, não funcionou com caminho relativo
+            Path file = Paths.get("/home/ltdagabriel/IdeaProjects/Programacao_concorrente/src/lista2/frases.txt");
+            List<String> lines = Files.readAllLines(file);
+            for (String i:lines){
+                System.out.println(i);
+                sleep(10_000);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            System.out.println("Interrupção da Thread por meio da função principal.");
+        }
+    }
+}
+
+```
 ###4. Faça uma Thread que monitora um conjunto de threads e exiba quais threads receberam sinais de interrupção.
+
 ###5. Faça uma thread Java que fica aguardando uma sequência numérica de tamanho arbitrário digitado por usuário para realizar uma soma. Use o join().
