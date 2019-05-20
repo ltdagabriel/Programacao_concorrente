@@ -1,4 +1,4 @@
-package semaforo.Atividade1.ex5;
+package semaforo.Atividade1.ex6;
 
 import java.util.concurrent.Semaphore;
 
@@ -21,8 +21,12 @@ public class Barrier {
         if (finalI == n)
             barrier.release(n);
 
-        if (finalI <= n)
+        if (finalI <= n) {
             barrier.acquire();
+            lock.acquire();
+            numThreads = 0;
+            lock.release();
+        }
     }
 
 }

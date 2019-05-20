@@ -1,7 +1,7 @@
 package monitor.exercicio2;
 
 public class MonitorCounter {
-    int i = 0;
+    private int i = 0;
 
     synchronized void increment() {
         i++;
@@ -9,7 +9,7 @@ public class MonitorCounter {
     }
 
     synchronized void sleepUntil(int x) {
-        while (x < i) {
+        while (i < x) {
             try {
                 wait();
             } catch (InterruptedException e) {
@@ -17,6 +17,5 @@ public class MonitorCounter {
             }
         }
         notifyAll();
-        i = 0;
     }
 }

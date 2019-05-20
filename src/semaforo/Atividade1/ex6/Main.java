@@ -1,6 +1,4 @@
-package semaforo.Atividade1.ex5;
-
-import java.util.concurrent.Semaphore;
+package semaforo.Atividade1.ex6;
 
 /**
  * Após n threads sincronizarem em um ponto em comum, um trecho específico (ponto crítico) pode
