@@ -18,14 +18,15 @@ public class Barrier {
         int finalI = numThreads;
         lock.release();
 
-        if (finalI == n)
-            barrier.release(n);
-
-        if (finalI <= n) {
-            barrier.acquire();
+        if (finalI == n){
             lock.acquire();
             numThreads = 0;
             lock.release();
+            barrier.release(n);
+			
+		}
+        if (finalI <= n) {
+            barrier.acquire();
         }
     }
 

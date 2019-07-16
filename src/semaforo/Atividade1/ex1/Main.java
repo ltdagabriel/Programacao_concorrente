@@ -1,4 +1,4 @@
-package semaforo.Atividade1.ex1;
+package ex1;
 
 import java.util.concurrent.Semaphore;
 

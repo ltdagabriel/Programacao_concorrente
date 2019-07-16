@@ -2,29 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4200643-213e-4984-90c1-8e0e7830247d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/monitor/exercicio2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/monitor/exercicio3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Filosofo/deadlock/Filosofo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Filosofo/deadlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Filosofo/semaphore/Filosofo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Filosofo/semaphore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Filosofo/starvation/Filosofo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Filosofo/starvation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/ReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_leitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_leitor/ReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/ReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A06_Locks/ex_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A06_Locks/ex_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A06_Locks/ex_02/SharedFifoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part1_ex_01/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part1_ex_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part1_ex_01/Ret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part1_ex_02/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part1_ex_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_04/Monitoramento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A08_executor/part2_ex_06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Produtor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Produtor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Baralho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Carta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Consumidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Produtor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A10_ConcurrentMap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/onidimensional_stencil/Sequential.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/META-INF/Programacao_concorrente.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/monitor/exercicio1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/monitor/exercicio1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/monitor/exercicio2/MonitorCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/monitor/exercicio2/MonitorCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/monitor/exercicio3/BoundedCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/monitor/exercicio3/BoundedCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/Controle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/Leitura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio_3_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio_3_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/exercicio_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/threads/lista2/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monitor/exercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/monitor/exercicio1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monitor/exercicio2/MonitorCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/monitor/exercicio2/MonitorCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monitor/exercicio3/BoundedCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/monitor/exercicio3/BoundedCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Barrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Barrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/frases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/frases.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex1/T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex1/T2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex5/Barrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex5/Barrier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex5/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex5/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programacao_concorrente/semaforo/Atividade1/ex5/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semaforo/Atividade1/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semaforo/Atividade1/ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semaforo/Atividade1/ex1/T1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semaforo/Atividade1/ex1/T1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semaforo/Atividade1/ex1/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semaforo/Atividade1/ex1/T2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semaforo/Atividade1/ex6/Barrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semaforo/Atividade1/ex6/Barrier.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,114 +68,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
-                <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Barbearia.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Monitor.java">
+        <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/ReaderWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/semaforo/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/ReaderWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/deadlock/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/starvation/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/deadlock/Filosofo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/semaphore/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <element signature="e#572#1055#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Barrier.java">
+        <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/semaphore/Filosofo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="247">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/exercicio3/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/starvation/Filosofo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monitor/exercicio3/BoundedCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -167,45 +176,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Problema/ReaderWriter.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio4/Customers.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio4/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio4/Barbeiro.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio4/Monitor.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio4/Barbearia.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio4/Main.java" />
-        <option value="$PROJECT_DIR$/Main.js" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/Contador.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio1/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio2/Thread_normal.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio2/Thread_runnable.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio2/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio3/Counter.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio3/Thread_not_safety.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista1/exercicio3/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio1/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio1/Thread_wait.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio2/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio2/Thread_file.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio3/Thread_file.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio3/Thread_wait.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio3/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio_4.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio4/Monitor.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio4/Main.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio5/Leitura.java" />
-        <option value="$PROJECT_DIR$/src/threads/lista2/exercicio5/Main.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio1/Main.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio2/MonitorCounter.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio2/Main.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio3/Main.java" />
-        <option value="$PROJECT_DIR$/src/monitor/exercicio3/BoundedCounter.java" />
-        <option value="$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Main.java" />
-        <option value="$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Barrier.java" />
+        <option value="$PROJECT_DIR$/src/semaforo/Atividade1/ex6/Main.java" />
+        <option value="$PROJECT_DIR$/src/semaforo/Atividade1/ex6/Barrier.java" />
+        <option value="$PROJECT_DIR$/src/onidimensional_stencil/sequential.java" />
+        <option value="$PROJECT_DIR$/src/onidimensional_stencil/Sequential.java" />
+        <option value="$PROJECT_DIR$/src/executor/ex_01/MaiorValor.java" />
+        <option value="$PROJECT_DIR$/src/executor/ex_01/Main.java" />
+        <option value="$PROJECT_DIR$/src/executor/ex_02/Main.java" />
+        <option value="$PROJECT_DIR$/src/executor/ex_03/Main.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_01/Consumidor.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_01/Main.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_01/Produtor.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_01_LinkedBlockingQueue/Main.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_02/Carta.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_02/Baralho.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_02/Consumidor.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_02/Main.java" />
+        <option value="$PROJECT_DIR$/src/colecoes/ex_02/Produtor.java" />
+        <option value="$PROJECT_DIR$/src/A10_ConcurrentMap/Main.java" />
+        <option value="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Produtor.java" />
+        <option value="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Main.java" />
+        <option value="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Main.java" />
+        <option value="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Produtor.java" />
+        <option value="$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/runnable_ex_01/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part1_ex_01/Ret.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part1_ex_01/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part1_ex_01/Fatorial.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part1_ex_02/Fatorial.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part1_ex_02/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part2_ex_03/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part2_ex_04/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part2_ex_04/Monitoramento.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part2_ex_05/Main.java" />
+        <option value="$PROJECT_DIR$/src/A08_executor/part2_ex_06/Main.java" />
+        <option value="$PROJECT_DIR$/src/A06_Locks/ex_01/Main.java" />
+        <option value="$PROJECT_DIR$/src/A06_Locks/ex_02/Main.java" />
+        <option value="$PROJECT_DIR$/src/A06_Locks/ex_02/SharedFifoQueue.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_escritor/Buffer.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_escritor/ReaderWriter.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_escritor/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_leitor/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_leitor/ReaderWriter.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/ReaderWriter.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/ReaderWriter.java" />
+        <option value="$PROJECT_DIR$/src/A05_Filosofo/impasse/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Filosofo/deadlock/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Filosofo/starvation/Filosofo.java" />
+        <option value="$PROJECT_DIR$/src/A05_Filosofo/starvation/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Filosofo/semaphore/Main.java" />
+        <option value="$PROJECT_DIR$/src/A05_Filosofo/semaphore/Filosofo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="47" />
     <option name="width" value="1221" />
@@ -216,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,56 +258,63 @@
               <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="semaforo" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Filosofo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Filosofo" type="462c0819:PsiDirectoryNode" />
+              <item name="deadlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Filosofo" type="462c0819:PsiDirectoryNode" />
+              <item name="semaphore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Filosofo" type="462c0819:PsiDirectoryNode" />
+              <item name="starvation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Leitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A10_ConcurrentMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Problema" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="semaforo" type="462c0819:PsiDirectoryNode" />
-              <item name="Atividade1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="semaforo" type="462c0819:PsiDirectoryNode" />
-              <item name="Atividade1" type="462c0819:PsiDirectoryNode" />
-              <item name="ex5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="lista1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="lista3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programacao_concorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programacao_concorrente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="lista3" type="462c0819:PsiDirectoryNode" />
-              <item name="exercicio1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -289,13 +322,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/semaforo/Atividade1/ex6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/A05_Filosofo/semaphore" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="A05_Leitor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabri\IdeaProjects\Programacao_concorrente\src\A05_Filosofo\semaphore" />
+      <recent name="C:\Users\gabri\IdeaProjects\Programacao_concorrente\src\colecoes\ex_02" />
+      <recent name="C:\Users\gabri\IdeaProjects\Programacao_concorrente\src\semaforo\Atividade1\ex6" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A05_Filosofo.starvation" />
+      <recent name="A05_Leitor.ex_01_sem_inanicao" />
+      <recent name="A05_Leitor.ex_01_prioriza_escritor" />
       <recent name="threads.lista2.exercicio3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -316,13 +360,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monitor.exercicio1.Main" />
+      <option name="MAIN_CLASS_NAME" value="A05_Filosofo.starvation.Main" />
       <module name="Programacao_concorrente" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="monitor.exercicio1.*" />
+          <option name="PATTERN" value="A05_Filosofo.starvation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,11 +375,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monitor.exercicio3.Main" />
+      <option name="MAIN_CLASS_NAME" value="A05_Leitor.ex_01_prioriza_escritor.Main" />
       <module name="Programacao_concorrente" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="monitor.exercicio3.*" />
+          <option name="PATTERN" value="A05_Leitor.ex_01_prioriza_escritor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,11 +388,24 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="semaforo.Atividade1.ex5.Main" />
+      <option name="MAIN_CLASS_NAME" value="A05_Filosofo.semaphore.Main" />
       <module name="Programacao_concorrente" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="semaforo.Atividade1.ex5.*" />
+          <option name="PATTERN" value="A05_Filosofo.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A08_executor.part2_ex_05.Main" />
+      <module name="Programacao_concorrente" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A08_executor.part2_ex_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,11 +414,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="monitor.exercicio2.Main" />
+      <option name="MAIN_CLASS_NAME" value="A06_Locks.ex_02.Main" />
       <module name="Programacao_concorrente" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="monitor.exercicio2.*" />
+          <option name="PATTERN" value="A06_Locks.ex_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +426,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercicio_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.lista2.exercicio_4" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A05_Leitor.ex_01_prioriza_leitor.Main" />
       <module name="Programacao_concorrente" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.lista2.*" />
+          <option name="PATTERN" value="A05_Leitor.ex_01_prioriza_leitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A05_Filosofo.deadlock.Main" />
+      <module name="Programacao_concorrente" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A05_Filosofo.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,11 +454,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.exercicio_4" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -406,18 +476,31 @@
       <workItem from="1557601530264" duration="14610000" />
       <workItem from="1557932570699" duration="2135000" />
       <workItem from="1557938765837" duration="8473000" />
-      <workItem from="1558373571333" duration="2952000" />
+      <workItem from="1558373571333" duration="3275000" />
+      <workItem from="1558392240177" duration="11000" />
+      <workItem from="1560187155420" duration="4111000" />
+      <workItem from="1560897787968" duration="5067000" />
+      <workItem from="1561397439547" duration="3514000" />
+      <workItem from="1563295134024" duration="17687000" />
     </task>
+    <task id="LOCAL-00001" summary="Barrier problem">
+      <created>1558376766606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558376766606</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30575000" />
+    <option name="totallyTimeSpent" value="61288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="47" width="1221" height="635" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29457363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28139183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -425,9 +508,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53984064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868525" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36070853" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -436,7 +519,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,331 +535,436 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Barrier problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Barrier problem" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Barbeiro.java">
+    <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.js" />
-    <entry file="file://$PROJECT_DIR$/src/sinalizacao/Consumidor.java">
+    <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex6/Barrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/readme.md" />
-    <entry file="file://$PROJECT_DIR$/src/sinalizacao/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex6/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sinalizacao/Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio_1.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/Implement_runnable.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio2/Thread_normal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio2/Thread_runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio3.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/Contador.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio_3.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/Implement_threads.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio3/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio3/Thread_not_safety.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista1/exercicio3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio1/Thread_wait.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio_1.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio_4.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio_5.java" />
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio2/Thread_file.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio3/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Barrier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio4/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/onidimensional_stencil/Sequential.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="646">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio4/Monitor.java">
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Carta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Baralho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Consumidor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A10_ConcurrentMap/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio5/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Consumidor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_ArrayBlockingQueue/Produtor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="17" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio5/Leitura.java">
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Produtor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio3/Thread_file.java">
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_01_LinkedBlockingQueue/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="179">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista2/exercicio3/Thread_wait.java">
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Consumidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threads/lista3/exercicio1/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/A09_ColecoesConcorrentes/ex_02/Produtor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="-37">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio1/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part1_ex_01/Ret.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part1_ex_01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="247">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio2/MonitorCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part1_ex_01/Fatorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part1_ex_02/Fatorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="327" column="17" lean-forward="true" selection-start-line="327" selection-start-column="17" selection-end-line="327" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio3/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part1_ex_02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio3/BoundedCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="-221">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_02/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Barbearia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="94">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="28" selection-end-column="74" />
           <folding>
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monitor/exercicio4/Monitor.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_03/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="213">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/semaforo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Barrier.java">
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_04/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/semaforo/Atividade1/ex5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="77">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#572#1055#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_04/Monitoramento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_05/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A08_executor/part2_ex_06/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A06_Locks/ex_01/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A06_Locks/ex_01/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A06_Locks/ex_02/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-845">
+          <caret line="627" column="6" selection-start-line="627" selection-start-column="6" selection-end-line="627" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A06_Locks/ex_02/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A06_Locks/ex_02/SharedFifoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_escritor/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_escritor/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problema/ReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_escritor/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_leitor/ReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_leitor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_prioriza_escritor/ReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Leitor/ex_01_sem_inanicao/ReaderWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/starvation/Filosofo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/deadlock/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/starvation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/deadlock/Filosofo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/semaphore/Filosofo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/A05_Filosofo/semaphore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
