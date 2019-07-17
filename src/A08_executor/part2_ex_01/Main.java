@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  * Faça um programa que localize o devolve_maior valor em um vetor. Divida o
  * programa em tarefas que localizam o devolve_maior valor em um segmento do
  * vetor. O programa deve possibilitar especificar o número de tarefas e o
- * número de threads para resolver o problema.
+ * número de extras.threads para resolver o problema.
  *
  * @author Gabriel Choptian
  */

@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * Crie uma classe SharedFifoQueue e use Conditions para
- * controlar se a fila est´a vazia ou cheia. Teste usando threads
+ * controlar se a fila est´a vazia ou cheia. Teste usando extras.threads
  * produtoras e consumidoras
  */
 public class Main {

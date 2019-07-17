@@ -29,13 +29,16 @@ public class Main {
                 }
                 int finalK = k;
                 int finalJ = j;
-                callables.add(() -> {
-                    int res = 0;
-                    for (int i = 0; i < a.size(); i++) {
-                        res += a.get(i) * b.get(i);
+                callables.add(new Callable<Pos>() {
+                    @Override
+                    public Pos call() throws Exception {
+                        int res = 0;
+                        for (int i = 0; i < a.size(); i++) {
+                            res += a.get(i) * b.get(i);
+                        }
+                        Pos pos = new Pos(res, finalK, finalJ);
+                        return pos;
                     }
-                    Pos pos = new Pos(res, finalK, finalJ);
-                    return pos;
                 });
 
             }

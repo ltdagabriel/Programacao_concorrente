@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Fa¸ca um programa usando Lock para simular a atualiza¸c˜ao de
- * um contador que ´e acessado por m´ultiplas threads. O
+ * um contador que ´e acessado por m´ultiplas extras.threads. O
  * contador pode diminuir e aumentar.
  */
 public class Main {

@@ -19,7 +19,7 @@ public class SharedFifoQueue {
 
     void add(int value) throws InterruptedException {
         lock.lock();
-        while (list.size() == max) {
+        while (list.size() >= max) {
             full.await();
         }
         list.add(value);

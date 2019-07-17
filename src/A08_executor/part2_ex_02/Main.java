@@ -6,7 +6,7 @@ import java.util.concurrent.*;
 /**
  * Faça um programa que calcule a soma dos elementos de uma matriz
  * MxN. Divida o programa em tarefas que somam as linhas. O programa
- * deve possibilitar especificar o número de threads para resolver o problema.
+ * deve possibilitar especificar o número de extras.threads para resolver o problema.
  *
  * @author Gabriel Choptian
  */
